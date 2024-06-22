@@ -238,5 +238,3 @@ Seu Nome - [jotapvaladares@icloud.com](mailto:jotapvaladares@icloud.com)
 
 Link do Projeto: [https://github.com/jotapvaladaresdev/teste](https://github.com/jotapvaladaresdev/teste)
 ```
-
-Certifique-se de ajustar os campos como o URL do repositório, seu nome, e-mail, e outras informações específicas do seu projeto antes de subir para o GitHub.
