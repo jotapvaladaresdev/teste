@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+.Dockerfile
+docker-compose.*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# MacOS
+.DS_Store
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Tests
+coverage/
+*.lcov
+
+# Production
+dist/
+build/
