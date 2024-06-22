@@ -43,7 +43,7 @@ A configuração é gerida pelo Docker Compose, que define as variáveis de ambi
 
 ### Registrar Cliente
 
-**POST /clients**
+**POST [/clients](http://localhost:8080/api/clients)**
 
 **Request Body:**
 ```json
@@ -75,7 +75,7 @@ A configuração é gerida pelo Docker Compose, que define as variáveis de ambi
 
 ### Listar Clientes
 
-**GET /clients?page=1&limit=10**
+**GET [/clients?page=1&limit=10](http://localhost:8080/api/clients?page=1&limit=10)**
 
 **Resposta de Sucesso:**
 ```json
@@ -99,7 +99,7 @@ A configuração é gerida pelo Docker Compose, que define as variáveis de ambi
 
 ### Obter Cliente por ID
 
-**GET /clients/:id**
+**GET [/clients/:id](http://localhost:8080/api/clients/:id)**
 
 **Resposta de Sucesso:**
 ```json
@@ -121,7 +121,7 @@ A configuração é gerida pelo Docker Compose, que define as variáveis de ambi
 
 ### Deletar Cliente por ID
 
-**DELETE /clients/:id**
+**DELETE [/clients/:id](http://localhost:8080/api/clients/:id)**
 
 **Resposta de Sucesso:**
 ```json
@@ -237,4 +237,3 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 Seu Nome - [jotapvaladares@icloud.com](mailto:jotapvaladares@icloud.com)
 
 Link do Projeto: [https://github.com/jotapvaladaresdev/teste](https://github.com/jotapvaladaresdev/teste)
-```
