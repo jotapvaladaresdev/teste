@@ -237,4 +237,3 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 Seu Nome - [jotapvaladares@icloud.com](mailto:jotapvaladares@icloud.com)
 
 Link do Projeto: [https://github.com/jotapvaladaresdev/teste](https://github.com/jotapvaladaresdev/teste)
-```
