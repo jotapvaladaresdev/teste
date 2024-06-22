@@ -6,23 +6,38 @@ Esta é uma aplicação de exemplo construída com Node.js, TypeScript e Express
 
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
+- [Node.js](https://nodejs.org/)
 
 ## Instalação
 
 1. Clone o repositório:
+    ```bash
     git clone https://github.com/seu-usuario/teste-aplicacao.git
     cd teste-aplicacao
+    ```
+
+2. Instale as dependências do projeto:
+    ```bash
+    npm install
+    ```
+
+## Configuração
+
+A configuração é gerida pelo Docker Compose, que define as variáveis de ambiente necessárias para a aplicação (`MONGO_URI`, `REDIS_HOST`, `REDIS_PORT`). Portanto, não é necessário criar um arquivo `.env` separadamente. As variáveis são definidas diretamente no arquivo `docker-compose.yml`.
 
 ## Executando a Aplicação com Docker
 
-1. Inicie os containers Docker:
+1. Construa a imagem Docker:
+    ```bash
+    docker-compose build
+    ```
+
+2. Inicie os containers Docker:
+    ```bash
     docker-compose up
+    ```
 
-2. A aplicação estará disponível em `http://localhost:8080`.
-
-### Nota sobre Variáveis de Ambiente
-
-As variáveis de ambiente necessárias para a aplicação (`MONGO_URI`, `REDIS_HOST`, `REDIS_PORT`) são definidas diretamente no arquivo `docker-compose.yml`. Portanto, não é necessário criar um arquivo `.env` separadamente. Se você preferir utilizar um arquivo `.env`, pode adicioná-lo e as variáveis serão lidas a partir dele também.
+3. A aplicação estará disponível em `http://localhost:8080`.
 
 ## Endpoints da API
 
@@ -219,9 +234,9 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## Contato
 
-Seu Nome - [seu-email@example.com](mailto:seu-email@example.com)
+Seu Nome - [jotapvaladares@icloud.com](mailto:jotapvaladares@icloud.com)
 
-Link do Projeto: [https://github.com/seu-usuario/teste-aplicacao](https://github.com/seu-usuario/teste-aplicacao)
+Link do Projeto: [https://github.com/jotapvaladaresdev/teste](https://github.com/jotapvaladaresdev/teste)
 ```
 
 Certifique-se de ajustar os campos como o URL do repositório, seu nome, e-mail, e outras informações específicas do seu projeto antes de subir para o GitHub.
